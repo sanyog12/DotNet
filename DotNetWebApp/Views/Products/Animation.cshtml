@@ -1,0 +1,17 @@
+@using catalog;
+@{
+    ViewData["Title"] = "Catalog Page";
+}
+<div Class="text-center">
+    @{
+        Product p1 = ViewData["Animation"] as Product;
+    }<div> </div>
+    <h1>Animations</h1>
+    <hr>
+    <img src="wwwroot\images\Tojii.jpeg"/>
+    <p>Title: @p1.Title</p>
+    <p>Description: @p1.Description</p>
+    <p>Unit Price: @p1.Unitprice</p>
+    <p>Quantity: @p1.Quantity</p>
+    <button>Add to crt</button>
+</div>
