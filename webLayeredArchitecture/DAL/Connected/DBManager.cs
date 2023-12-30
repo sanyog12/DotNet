@@ -1,3 +1,4 @@
+using System.Reflection;
 using BOL;
 using MySql.Data.MySqlClient;
 namespace DAL.Connected;
@@ -30,6 +31,7 @@ public class DBManager{
         }
         return status;
     }
+
     
     public static bool Update(Product prod){
         bool status = false;
@@ -51,6 +53,7 @@ public class DBManager{
         return status;
     }
 
+
     public static bool Delete(Product prod){
         Boolean status = false;
         MySqlConnection con = new MySqlConnection();
@@ -71,113 +74,121 @@ public class DBManager{
         }
         return status;
     }
+    
+    public static List<Product> GetAllProducts(){
+        List<Product> list = new List<Product>();
+        string query = "SELECT * FROM product";
+        MySqlConnection con = new MySqlConnection();
+        con.ConnectionString = conString;
+        MySqlCommand cmd = new MySqlCommand(query,con);
 
-    public static bool Update(Department dept)
-    {
-        bool status = false;
-        MySqlConnection con = new MySqlConnection();
-        con.ConnectionString = conString;
-        try
-        {
-            string query = "UPDATE departments SET location='" + dept.Location + "', name='" + dept.Name + "' WHERE id=" + dept.Id;
-            MySqlCommand command = new MySqlCommand(query, con);
+        try{
             con.Open();
-            command.ExecuteNonQuery();
-            status = true;
+            MySqlDataReader  reader = cmd.ExecuteReader();
+            while(reader.Read()){
+               
+                int id = int.Parse(reader["product_id"].ToString());
+                string name = reader["name"].ToString();
+                int quantity = int.Parse(reader["quantity"].ToString());
+                Product product = new Product{Product_id = id, Name = name, Quantity = quantity};
+                list.Add(product);
+            }
+        }catch(Exception e){
+            Console.WriteLine("Err in GetAllProducts");
         }
-        catch (Exception e)
-        {
-            throw e;
-        }
-        finally
-        {
+        finally{
             con.Close();
         }
-        return status;
+        return list;
     }
-    public static bool Delete(int id){
-        bool status=false;
-        MySqlConnection con = new MySqlConnection();
-        con.ConnectionString = conString;
-        try
-        {
-            string query = "DELETE FROM departments WHERE id=" + id;
-            MySqlCommand command = new MySqlCommand(query, con);
-            con.Open();
-            command.ExecuteNonQuery();
-        }
-        catch (Exception e)
-        {
-            throw e;
-        }
-        finally
-        {
-            con.Close();
-        }
-      return status;
-    }
+
+    // public static bool Update(Department dept)
+    // {
+    //     bool status = false;
+    //     MySqlConnection con = new MySqlConnection();
+    //     con.ConnectionString = conString;
+    //     try
+    //     {
+    //         string query = "UPDATE departments SET location='" + dept.Location + "', name='" + dept.Name + "' WHERE id=" + dept.Id;
+    //         MySqlCommand command = new MySqlCommand(query, con);
+    //         con.Open();
+    //         command.ExecuteNonQuery();
+    //         status = true;
+    //     }
+    //     catch (Exception e)
+    //     {
+    //         throw e;
+    //     }
+    //     finally
+    //     {
+    //         con.Close();
+    //     }
+    //     return status;
+    // }
+   
 
    
   
-  public static bool Update(Department dept)
-    {
-        bool status = false;
-        MySqlConnection con = new MySqlConnection();
-        con.ConnectionString = conString;
-        try
-        {
-            string query = "UPDATE departments SET location='" + dept.Location + "', name='" + dept.Name + "' WHERE id=" + dept.Id;
-            MySqlCommand command = new MySqlCommand(query, con);
-            con.Open();
-            command.ExecuteNonQuery();
-            status = true;
-        }
-        catch (Exception e)
-        {
-            throw e;
-        }
-        finally
-        {
-            con.Close();
-        }
-        return status;
-    }
+//   public static bool Update(Department dept)
+//     {
+//         bool status = false;
+//         MySqlConnection con = new MySqlConnection();
+//         con.ConnectionString = conString;
+//         try
+//         {
+//             string query = "UPDATE departments SET location='" + dept.Location + "', name='" + dept.Name + "' WHERE id=" + dept.Id;
+//             MySqlCommand command = new MySqlCommand(query, con);
+//             con.Open();
+//             command.ExecuteNonQuery();
+//             status = true;
+//         }
+//         catch (Exception e)
+//         {
+//             throw e;
+//         }
+//         finally
+//         {
+//             con.Close();
+//         }
+//         return status;
+//     }
 
 
 
-    public static List<Product> GetAllProducts(){
-       List<Product> list=new List<Product>();
-        MySqlConnection connection = new MySqlConnection();
-        connection.ConnectionString ="server=localhost;port=3306;user=root;password=password;database=ecommerce";
-        string query ="select * from products";
-        MySqlCommand command = new MySqlCommand(query, connection);
-        try{
-            connection.Open();
-            MySqlDataReader reader=command.ExecuteReader();
+    // public static List<Product> GetAllProducts(){
+    //    List<Product> list=new List<Product>();
+    //     MySqlConnection connection = new MySqlConnection();
+    //     connection.ConnectionString ="server=localhost;port=3306;user=root;password=password;database=ecommerce";
+    //     string query ="select * from products";
+    //     MySqlCommand command = new MySqlCommand(query, connection);
+    //     try{
+    //         connection.Open();
+    //         MySqlDataReader reader=command.ExecuteReader();
             
-            while(reader.Read()){
-            Product product=new Product();
-            int id=int.Parse(reader["product_id"].ToString());
-            string title=reader["product_title"].ToString();
-            string description=reader["description"].ToString();
-            product.Id=id;
-            product.Title=title;
-            product.Description=description;
-            list.Add(product);
-            }
-            reader.Close();
-        }
-        catch(Exception e){
-            Console.WriteLine(e.Message);
-        }
-        finally{
-            connection.Close();
-        }
+    //         while(reader.Read()){
+    //         Product product=new Product();
+    //         int id=int.Parse(reader["product_id"].ToString());
+    //         string title=reader["product_title"].ToString();
+    //         string description=reader["description"].ToString();
+    //         List<Product> product =
+    //         product.Id=id;
+    //         product.Title=title;
+    //         product.Description=description;
+    //         list.Add(product);
+    //         }
+    //         reader.Close();
+    //     }
+    //     catch(Exception e){
+    //         Console.WriteLine(e.Message);
+    //     }
+    //     finally{
+    //         connection.Close();
+    //     }
        
        
       
-        return list;
-    }
+    //     return list;
+    // }
 
     
     }

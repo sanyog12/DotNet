@@ -1,4 +1,4 @@
-// public namespace DAL.DisConnected;
+ namespace DAL.DisConnected;
 // using BOL;
 // using System.Data;
 // using MySql.Data.MySqlClient;

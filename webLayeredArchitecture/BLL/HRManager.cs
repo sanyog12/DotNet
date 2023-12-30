@@ -1,10 +1,10 @@
 namespace BLL;
 using BOL;
-using DAL.DisConnected;
+using DAL.Connected;
 public class HRManager{
-    public List<Department> GetAllDepartments(){
-        List<Department> allDepartments = new List<Department>();
-        allDepartments = DBManager.GetAllDepartments();
+    public List<Product> GetAllDepartments(){
+        List<Product> allDepartments = new List<Product>();
+        allDepartments = DBManager.GetAllProducts();
         return allDepartments;
     }
 }

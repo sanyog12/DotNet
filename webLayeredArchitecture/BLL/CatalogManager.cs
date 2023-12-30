@@ -1,5 +1,6 @@
 namespace BLL;
 using BOL;
+using DAL.Connected;
 using DAL;
 
 public class CatalogManager{
@@ -9,9 +10,9 @@ public class CatalogManager{
         return allProducts;
     }
 
-    public Product GetProduct(int id){
-        List<Product> allProducts =GetAllProducts();
-        Product product = allProducts.Find((product)=>product.Id == id);
-        return product;
-    }
+    // public Product GetProduct(int id){
+    //     List<Product> allProducts =GetAllProducts();
+    //     Product product = allProducts.Find((product)=>product.Id == id);
+    //     return product;
+    // }
 }
