@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj": {}
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj": {
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj",
+        "projectUniqueName": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj",
         "projectName": "myAPIApp",
-        "projectPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\obj\\",
+        "projectPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj",
+        "packagesPath": "C:\\Users\\Sanyog\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sanyog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net8.0": {
@@ -37,6 +38,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

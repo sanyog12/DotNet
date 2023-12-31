@@ -9,39 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = myAPIApp
 build_property.RootNamespace = myAPIApp
-build_property.ProjectDir = C:\Users\IET\Desktop\sdotnet\Day9\myAPIApp\
+build_property.ProjectDir = C:\Users\Sanyog\OneDrive\Desktop\myAPIApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\IET\Desktop\sdotnet\Day9\myAPIApp
+build_property.MSBuildProjectDirectory = C:\Users\Sanyog\OneDrive\Desktop\myAPIApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/Home/Index.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/DeleteEmployee/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlRW1wbG95ZWVcRGVsZXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Employee/EDITEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRURJVEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Employee/InsertEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5zZXJ0RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Employee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Employee/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/Home/Privacy.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/Shared/Error.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/_ViewImports.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/_ViewStart.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/sdotnet/Day9/myAPIApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Sanyog/OneDrive/Desktop/myAPIApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tc3swolsvi

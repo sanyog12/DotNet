@@ -5,28 +5,31 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "MySql.Data >= 8.2.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {}
+    "C:\\Users\\Sanyog\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj",
       "projectName": "myAPIApp",
-      "projectPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\obj\\",
+      "projectPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj",
+      "packagesPath": "C:\\Users\\Sanyog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sanyog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net8.0": {
@@ -43,6 +46,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "MySql.Data": {
+            "target": "Package",
+            "version": "[8.2.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -65,5 +74,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

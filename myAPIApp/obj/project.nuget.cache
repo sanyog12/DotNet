@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "LNAy6/e6BW6acJsDjLLHjsv6ck66US+3Y8L1SURDVCfrqrL8hC/FMEVh0kiIB+fGKENveYDgyD1gMVnke59DXQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day9\\myAPIApp\\myAPIApp.csproj",
+  "dgSpecHash": "fgh0uaPe4rnDeL1sIA+6VrqmY6LGEKhxZlCbr703bpSHYYrz/z/uwU0VZlzJL62cDceWh4Rj6uzVmok2p0gdZw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\myAPIApp\\myAPIApp.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MySql.Data. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

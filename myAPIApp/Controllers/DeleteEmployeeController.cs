@@ -4,35 +4,27 @@ using myAPIApp.Models;
 
 namespace myAPIApp.Controllers;
 
-public class HomeController : Controller
+public class DeleteEmployeeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<DeleteEmployeeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public DeleteEmployeeController(ILogger<DeleteEmployeeController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index()
+
+[HttpGet]
+  public IActionResult DeleteEmployee()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+[HttpPost]
+ public IActionResult DeleteEmployee(String s1, string s2)//compare id and password both to delete the employee
     {
         return View();
     }
-    [HttpPost]
-     public IActionResult Index(String email, String pass)//insert the email and pass into the db
-    {
-        return View();
-    }
-
-
-
-
-
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
