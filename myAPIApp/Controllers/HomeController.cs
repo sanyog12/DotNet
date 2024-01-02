@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using myAPIApp.Models;
+using DAL;
 
 namespace myAPIApp.Controllers;
 
@@ -13,20 +14,31 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+
+ public IActionResult Index()
+    {return View();}
+
+[HttpPost]
+    public IActionResult Index(String Email,String Password)
     {
+        int flag = DBManager.LogIn(Email,Password);
+        if(flag >1){
+            this.RedirectToAction("List");
+        }
+        else{
+            this.RedirectToAction("Register");
+        }
+
         return View();
+
+    
     }
 
     public IActionResult Privacy()
     {
         return View();
     }
-    [HttpPost]
-     public IActionResult Index(String email, String pass)//insert the email and pass into the db
-    {
-        return View();
-    }
+
 
 
 

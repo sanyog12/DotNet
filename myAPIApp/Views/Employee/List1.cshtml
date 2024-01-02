@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "LIST";
+}
+@using Model;
+
+    @foreach(var emp in Model){
+<p>@emp.Email</p>
+<p>@emp.Password</p>
+    }
