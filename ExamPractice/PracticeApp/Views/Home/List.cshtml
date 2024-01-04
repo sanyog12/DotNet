@@ -1,0 +1,9 @@
+@* @using BOL;
+@using System.Collections.Generic;
+@{ViewData["Title"] = "Product Catlog";}
+@{
+    List<Student> stud =(List<Student>)this.ViewData["allStudents"];
+    foreach( Student s in stud){
+<p>@s.id @s.name @s.email</p>
+    
+}} *@
