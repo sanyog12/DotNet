@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\ExamPractice\\BOL\\BOL.csproj": {}
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\ExamPractice\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\ExamPractice\\BOL\\BOL.csproj": {
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\ExamPractice\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\ExamPractice\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\ExamPractice\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\ExamPractice\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\ExamPractice\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\Sanyog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\ExamPractice\\BOL\\obj\\",
+        "outputPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\ExamPractice\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sanyog\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

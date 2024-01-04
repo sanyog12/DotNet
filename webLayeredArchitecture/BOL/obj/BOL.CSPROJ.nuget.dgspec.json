@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\sdotnet\\Day8Again\\webLayeredArchitecture\\BOL\\BOL.CSPROJ": {}
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\webLayeredArchitecture\\BOL\\BOL.CSPROJ": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\sdotnet\\Day8Again\\webLayeredArchitecture\\BOL\\BOL.CSPROJ": {
+    "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\webLayeredArchitecture\\BOL\\BOL.CSPROJ": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\sdotnet\\Day8Again\\webLayeredArchitecture\\BOL\\BOL.CSPROJ",
+        "projectUniqueName": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\webLayeredArchitecture\\BOL\\BOL.CSPROJ",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day8Again\\webLayeredArchitecture\\BOL\\BOL.CSPROJ",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\sdotnet\\Day8Again\\webLayeredArchitecture\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\webLayeredArchitecture\\BOL\\BOL.CSPROJ",
+        "packagesPath": "C:\\Users\\Sanyog\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sanyog\\OneDrive\\Desktop\\dotnet\\Practice\\DotNet\\webLayeredArchitecture\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sanyog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

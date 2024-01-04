@@ -9,3 +9,15 @@ C:\Users\Sanyog\OneDrive\Desktop\ExamPractice\BOL\obj\Debug\net8.0\BOL.dll
 C:\Users\Sanyog\OneDrive\Desktop\ExamPractice\BOL\obj\Debug\net8.0\refint\BOL.dll
 C:\Users\Sanyog\OneDrive\Desktop\ExamPractice\BOL\obj\Debug\net8.0\BOL.pdb
 C:\Users\Sanyog\OneDrive\Desktop\ExamPractice\BOL\obj\Debug\net8.0\ref\BOL.dll
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\bin\Debug\net8.0\BOL.deps.json
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\bin\Debug\net8.0\BOL.dll
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\bin\Debug\net8.0\BOL.pdb
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.AssemblyInfoInputs.cache
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.AssemblyInfo.cs
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.sourcelink.json
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.dll
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\refint\BOL.dll
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\BOL.pdb
+C:\Users\Sanyog\OneDrive\Desktop\dotnet\Practice\DotNet\ExamPractice\BOL\obj\Debug\net8.0\ref\BOL.dll

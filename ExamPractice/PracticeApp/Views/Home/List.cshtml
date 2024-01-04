@@ -1,9 +1,12 @@
-@* @using BOL;
-@using System.Collections.Generic;
-@{ViewData["Title"] = "Product Catlog";}
+@using BOL;
+@using PracticeApp.Controllers;
+@using System.Collections;
 @{
-    List<Student> stud =(List<Student>)this.ViewData["allStudents"];
-    foreach( Student s in stud){
-<p>@s.id @s.name @s.email</p>
-    
-}} *@
+    ViewData["Title"] = "catlog Page";
+}
+@{
+    List<Student> list = (List<Student>)this.ViewData["allStudents"];
+        foreach(Student s in list){
+            <P>@s.id @s.name @s.email</P>
+        }
+}
