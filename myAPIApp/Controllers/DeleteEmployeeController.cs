@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using DAL;
 using Microsoft.AspNetCore.Mvc;
 using myAPIApp.Models;
 
@@ -14,10 +15,27 @@ public class DeleteEmployeeController : Controller
     }
 
 
-[HttpGet]
   public IActionResult DeleteEmployee()
     {
+
+        
         return View();
+    }
+
+[HttpPost]
+ public IActionResult DeleteEmployee(String Email)
+    {
+        Console.WriteLine(1);
+        bool flag = DBManager.DeleteEmp(Email);
+        string msg;
+        if(flag){
+             msg = "Emp deleted successfully ";
+            ViewBag.Message = msg;
+            this.RedirectToAction("List1");
+        }
+         msg = "Emp deleted successfully ";
+            ViewBag.Message = msg;
+         return View();
     }
 
 [HttpPost]

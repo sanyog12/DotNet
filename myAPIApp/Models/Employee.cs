@@ -4,10 +4,10 @@ namespace Model;
 
 public class Employee{
 [Required, MaxLength(80)]
-    public int? Id{get;set;}
 
-    public String? EmpName{get;set;}
 
-    public String? Desg{get;set;}
+    public string? Email{get;set;}    
+
+    public String? Password{get;set;}
 
 }
