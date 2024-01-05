@@ -1,0 +1,14 @@
+<h1>
+    Here is the list of emp details
+</h1>
+
+@using BOL;
+@using BLL;
+
+@{
+    List<Employee> plist = (List<Employee>)this.ViewData["productview"];
+    foreach (Employee e in plist)
+    {
+        <p>@e.Id     @e.Dates   @e.WorkDesc  @e.Duration     @e.Status</p>
+    }
+}
